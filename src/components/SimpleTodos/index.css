@@ -1,0 +1,44 @@
+.app-container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #ffc2a0;
+}
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 90%;
+  border-radius: 16px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 24px;
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .todos-container {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+.todo-heading {
+  color: #ff8542;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .todo-heading {
+    font-size: 48px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+.todo-list {
+  padding-left: 0px;
+}
